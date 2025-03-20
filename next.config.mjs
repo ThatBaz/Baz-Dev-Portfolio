@@ -4,6 +4,8 @@ import path from 'path';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  basePath: "./",
   webpack: (config, { isServer }) => {
     config.module.rules.push({
       test: /\.glb$/,
