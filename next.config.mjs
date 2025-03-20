@@ -6,6 +6,9 @@ import path from 'path';
 const nextConfig = {
   output: "export",
   basePath: "./",
+  trailingSlash: true,
+  reactStrictMode: true,
+  
   webpack: (config, { isServer }) => {
     config.module.rules.push({
       test: /\.glb$/,
