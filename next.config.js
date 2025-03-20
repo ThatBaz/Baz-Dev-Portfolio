@@ -2,11 +2,6 @@
 module.exports = {
     webpack: (config, { isServer }) => {
       config.module.rules.push({
-        output: "export",
-        basePath: "./",
-        trailingSlash: true,
-        reactStrictMode: true,
-
         test: /\.glb$/,
         use: [
           {
