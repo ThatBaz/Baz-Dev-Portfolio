@@ -1,5 +1,6 @@
 {
-  "name": "portfolio",
+  "name": "baz-dev",
+  "homepage": "https://thatbaz.github.io/site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
