@@ -11,23 +11,13 @@ import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 
-const BentoGrid = ({
+export const BentoGrid = ({
   className,
   children,
 }: {
   className?: string;
   children?: React.ReactNode;
 }) => {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  if (!isClient) {
-    return null;
-  }
-
   return (
     <div
       className={cn(
@@ -215,5 +205,3 @@ export const BentoGridItem = ({
     </div>
   );
 };
-
-export default BentoGrid;
