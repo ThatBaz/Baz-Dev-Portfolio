@@ -53,7 +53,7 @@ const Hero = () => {
            */}
 
           <img
-            src="../assets/logo.png"
+            src="/assets/logo.png"
             alt="Barry-Dev Logo"
             className=""
             width={300}
