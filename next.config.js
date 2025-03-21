@@ -18,15 +18,16 @@ module.exports = {
       return config;
     },
   };
-  
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/site",
+  basePath: "./",
   trailingSlash: true,
   reactStrictMode: true,
+  assetPrefix: "./",
   images: {
     unoptimized: true,
-    domains: ["https://thatbaz.github.io/"],
+    loader: "akamai",
   },
 };
