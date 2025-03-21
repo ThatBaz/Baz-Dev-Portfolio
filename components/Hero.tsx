@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -52,7 +53,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
 
-          <img
+          <Image
             src="assets/logo.png"
             alt="Barry-Dev Logo"
             className=""
