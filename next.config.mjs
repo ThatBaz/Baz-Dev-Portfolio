@@ -8,6 +8,9 @@ const nextConfig = {
   basePath: "./",
   trailingSlash: true,
   reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
   
   webpack: (config, { isServer }) => {
     config.module.rules.push({
