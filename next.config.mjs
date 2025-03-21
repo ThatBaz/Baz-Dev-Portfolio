@@ -5,11 +5,12 @@ import path from 'path';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "./",
+  basePath: "/site",
   trailingSlash: true,
   reactStrictMode: true,
   images: {
     unoptimized: true,
+    domains: ["https://thatbaz.github.io/"],
   },
   
   webpack: (config, { isServer }) => {
