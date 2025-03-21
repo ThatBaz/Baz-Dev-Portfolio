@@ -18,3 +18,15 @@ module.exports = {
       return config;
     },
   };
+  
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+  basePath: "/site",
+  trailingSlash: true,
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+    domains: ["https://thatbaz.github.io/"],
+  },
+};

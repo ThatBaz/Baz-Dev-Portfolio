@@ -54,7 +54,7 @@ const Hero = () => {
            */}
 
           <Image
-            src="/assets/logo.png"
+            src="../public/assets/logo.png"
             alt="Barry-Dev Logo"
             className=""
             width={300}
