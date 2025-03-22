@@ -12,7 +12,6 @@ const nextConfig = {
   distDir: "out",
   images: {
     unoptimized: true,
-    loader: "akamai",
   },
 };
 

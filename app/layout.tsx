@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="\assets\Baz-Dev.png" sizes="any" />
+        <link rel="icon" href="Baz-Dev.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

@@ -6,9 +6,8 @@ const nextConfig = {
   trailingSlash: true,
   reactStrictMode: true,
   assetPrefix: "./",
-  distDir: 'out',
+  distDir: "out",
   images: {
     unoptimized: true,
-    loader: "akamai",
   },
 };
