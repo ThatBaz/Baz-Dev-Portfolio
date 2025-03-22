@@ -25,7 +25,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "b2.svg",
+    img: "",
     spareImg: "",
   },
   {
@@ -35,7 +35,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
-    img: "b3.svg",
+    img: "",
     spareImg: "",
   },
   {
